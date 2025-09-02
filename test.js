@@ -1,1 +1,1 @@
-console.log("test purpose");git init
+console.log("test purpose");

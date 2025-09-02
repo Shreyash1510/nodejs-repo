@@ -64,3 +64,12 @@
   + git log
   + git log --oneline
 ```
+1. ```git init``` To create initial repo
+2. ```git add .``` To add all the files in initial repo> main branch
+3. ```git status``` To check status of branch> main branch
+4. ```git commit -m ""``` To commit added file in branch> main
+5. ```git remote add origin https://github.com/Shreyash1510/nodejs-repo.git```
+6. ```git remote -v```
+7. ```git push origin main```
+
+8. ```git switch -c developement main```

@@ -19,8 +19,7 @@
 // calculatesum(2,3)       
 
 
-// const calculatemultiply = require("./calculate/multiply")
-// calculatemultiply(5,5)
+
 
                                 //--> USING REQUIRE FOR MULTIPLE FILES 
                                 // FOR EXECUTING VAR & FUN FROM ANOTHER FOLDER
@@ -28,6 +27,32 @@
 
 // calculatesub(10, 5)
 // calculatemultiply(10, 5)
+
+
+
+
+                                //--> USING REQUIRE FOR MULTIPLE FUNCTION OF SAME FILE 
+
+// const {combined_add} = require("./calculate/multiple_functions")
+// combined_add(100,10)
+
+// const {combined_multiply} = require("./calculate/multiple_functions")
+// combined_multiply(100,10)
+
+                                // Other simple and easy way to call both at once
+const {combined_add , combined_multiply} = require("./calculate/multiple_functions")
+combined_add(100,10)
+combined_multiply(100,10)
+
+                                // [for calculate > multiple_function.js > exports.combined_add & exports.combined_multiply]
+// const math_add= require("./calculate/multiple_functions")
+// math_add.combined_add(10,100)
+
+// const math_multiple = require("./calculate/multiple_functions")
+// math_multiple.combined_multiply(10,100)
+
+
+
 
                                 //--> USING REQUIRE FOR ACCESSING {JSON} DATA
 // const data = require("./data.json")

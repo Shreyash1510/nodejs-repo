@@ -1,5 +1,5 @@
-function calculatemultiply (x){
-    const multiply =  x*x;
+function calculatemultiply (a,b){
+    const multiply =  a*b;
     console.log("The multiplication is: "+multiply);
 }
 
